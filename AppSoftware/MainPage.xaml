@@ -1,0 +1,5 @@
+<VerticalStackLayout Padding="30" Spacing="15">
+    <Entry Placeholder="Escribe un dato para analizar" Text="{Binding TextoUsuario}" />
+    <Button Text="Ejecutar Análisis Emergente" Command="{Binding AnalizarCommand}" />
+    <Label Text="{Binding Resultado}" FontAttributes="Bold" HorizontalOptions="Center" />
+</VerticalStackLayout>
